@@ -15,8 +15,8 @@
 
 ##  如何开始？
 
-1. 阅读  [`Syllabus.md`](./Syllabus.md) 了解项目安排
-2. 参考  [`Roadmap.md`](./Roadmap.md) 选择适合你的项目路径
+1. 阅读  [`Syllabus.md`](ToBeDone) 了解项目安排
+2. 参考  [`Roadmap.md`](ToBeDone) 选择适合你的项目路径
 3. 从入门项目开始，逐步挑战更高难度
 4. 所有项目均提供完整说明文档、依赖列表、模板代码
 
