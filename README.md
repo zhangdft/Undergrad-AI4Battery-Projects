@@ -1,2 +1,47 @@
-# Undergrad-AI4Battery-Projects
-Undergraduate Research Training Program at University of Electronic Science and Technology of China
+# 本科生机器学习电池模拟训练项目
+
+> 从入门到实践 · 三阶段科研能力培养体系  
+> 融合 **电化学分析 + 多尺度计算模拟 + 机器学习方法**
+
+本课程项目分为三类，循序渐进，帮助学生构建完整的“电池材料智能设计”能力：
+
+| 类别 | 目标 | 适合人群 | 项目示例 |
+|------|------|----------|----------|
+| **入门项目**<br>(Getting Started) | 掌握基础工具与方法，建立科研规范 | Python 数据分析、MD/DFT基础计算模拟等 |
+| **进阶项目**<br>(Advanced) | 深化理解，自主设计计算方案 | DFT界面计算、ML势函数训练等 |
+| **实践项目**<br>(Practical) | 解决真实科研/工程问题，输出可发表成果 | SOX预测、电池失效机理解析、固态电池设计 |
+
+---
+
+##  如何开始？
+
+1. 阅读  [`Syllabus.md`](./Syllabus.md) 了解项目安排
+2. 参考  [`Roadmap.md`](./Roadmap.md) 选择适合你的项目路径
+3. 从入门项目开始，逐步挑战更高难度
+4. 所有项目均提供完整说明文档、依赖列表、模板代码
+
+---
+
+##  项目目录结构
+
+- ` 01_GettingStarted/` —— 手把手入门，重在规范与基础
+- ` 02_Advanced/` —— 强化科研思维，鼓励自主探索
+- ` 03_Practical/` —— 面向真实问题，产出科研级成果
+- ` Common_Resources/` —— 图表模板、文献引用、学习链接
+
+---
+
+##  工具与规范
+
+- **代码规范**：PEP8 + Google Docstring + Black/Flake8
+- **图表标准**：Nature 风格，≥300 dpi，支持矢量图
+- **文档要求**：每个项目含 `README.md` + 技术报告 + PPT
+- **版本控制**：Git + GitHub，鼓励使用 Branch + Pull Request
+
+---
+
+## 联系方式
+
+- 指导教师：张宝 特聘研究员
+- 联系方式：zhangbao@uestc.edu.cn
+- 办公时间：每周日 10:00–12:00 @创新中心C209
