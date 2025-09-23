@@ -10,7 +10,7 @@ A Python tool to analyze battery cycling data from Neware .ndax files. It visual
 
 ```bash
 git clone https://github.com/Dianzhuanshaokao/battery-analysis.git
-cd Undergrad-AI4Battery-Projects/01_GettingStarted/Project1_Python_DataAnalysis
+cd Undergrad-AI4Battery-Projects/Submissions/zhongxiansun
 pip install -r requirements.txt
 ```
 ## Usage
