@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import random
 
 Rate1 = np.arange(1, 5, 1)
 Rate2 = np.arange(1, 5, 1)
@@ -21,7 +20,7 @@ delta_t =(np.round(10/(results['Rate1'] * results['D1'])
 
 results['0.5C-det'] = delta_t
 filtered_results = results[results['0.5C-det']]
-print(filtered_results.shape[0])
+print(f"Number of policies is {filtered_results.shape[0]}")
 
 columns = ['Rate1', 'Rate2', 'Ton1', 'Ton2', 'Toff1', 'Toff2']
 
