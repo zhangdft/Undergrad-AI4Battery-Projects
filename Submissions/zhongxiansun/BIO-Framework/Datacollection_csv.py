@@ -32,7 +32,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--data_dir",
         type=str,
-        default="data",
+        default="Dual_salt/data",
         help="Directory containing batch and pred subdirectories (default: 'data')",
     )
     parser.add_argument(
@@ -44,8 +44,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--test_files",
         type=str,
-        default="Testdata",
-        help="Directory containing test data folders like baseline/ and round*/ (default: 'Testdata')",
+        default="Dual_salt/raw",
+        help="Directory containing test data folders like baseline/ and round*/ (default: 'Dual_salt/raw')",
     )
     return parser.parse_args()
 
