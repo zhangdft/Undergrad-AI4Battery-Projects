@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+  <config type="Step File" version="17" client_version="BTS Client 8.0.0.478(2024.06.24)(R3)" date="20241029195029" Guid="f5746aa9-e2a3-4498-a8a2-f5f54ea94fbd">
+    <Head_Info>
+      <Operate Value="66" />
+      <Scale Value="1" />
+      <Start_Step Value="1" Hide_Ctrl_Step="0" />
+      <Creator Value="SZX" />
+      <Remark Value="pulse" />
+      <RateType Value="104" />
+      <SCQ Value="11000" />
+      <SCQ_F Value="0.00011" />
+      <SpecificCap Value="165" />
+    </Head_Info>
+    <Whole_Prt>
+      <Record>
+        <Main>
+          <Time Value="30000" />
+        </Main>
+      </Record>
+    </Whole_Prt>
+    <Step_Info Num="22">
+      <Step1 Step_ID="1" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="30000" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="3600000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step1>
+      <Step2 Step_ID="2" Step_Type="1">
+        <Record>
+          <Main>
+            <Time Value="30000" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="0.363" />
+            <Rate Value="0.2" />
+            <Stop_Volt Value="45000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step2>
+      <Step3 Step_ID="3" Step_Type="3">
+        <Record>
+          <Main>
+            <Time Value="30000" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="0.363" />
+            <Volt Value="45000" />
+            <Stop_Curr Value="0.036" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step3>
+      <Step4 Step_ID="4" Step_Type="2">
+        <Record>
+          <Main>
+            <Time Value="30000" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="0.363" />
+            <Rate Value="0.2" />
+            <Stop_Volt Value="36000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step4>
+      <Step5 Step_ID="5" Step_Type="5">
+        <Limit>
+          <Other>
+            <Start_Step Value="2" />
+            <Cycle_Count Value="2" />
+          </Other>
+        </Limit>
+      </Step5>
+      <Step6 Step_ID="6" Step_Type="1">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="9.075" />
+            <Rate Value="5" />
+            <Time Value="100" />
+            <Stop_Volt Value="45000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step6>
+      <Step7 Step_ID="7" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="500" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step7>
+      <Step8 Step_ID="8" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="400" />
+          </Main>
+          <Other CndCount="1">
+            <Cnd1 type="1" Function="0" CmpType="4" Jump_Line="10" Value="39500" TimeGoto="0" ThrowParam=" 0" GlobleUserID="2147483647" GLobleType="1" GlobalVar="2147483647" Aux="0" />
+          </Other>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step8>
+      <Step9 Step_ID="9" Step_Type="5">
+        <Limit>
+          <Other>
+            <Start_Step Value="6" />
+            <Cycle_Count Value="65535" />
+          </Other>
+        </Limit>
+      </Step9>
+      <Step10 Step_ID="10" Step_Type="1">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="3.63" />
+            <Rate Value="2" />
+            <Time Value="250" />
+            <Stop_Volt Value="45000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step10>
+      <Step11 Step_ID="11" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="550" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step11>
+      <Step12 Step_ID="12" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="300" />
+          </Main>
+          <Other CndCount="1">
+            <Cnd1 type="1" Function="0" CmpType="4" Jump_Line="14" Value="40500" TimeGoto="0" ThrowParam=" 0" GlobleUserID="2147483647" GLobleType="1" GlobalVar="2147483647" Aux="0" />
+          </Other>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step12>
+      <Step13 Step_ID="13" Step_Type="5">
+        <Limit>
+          <Other>
+            <Start_Step Value="10" />
+            <Cycle_Count Value="65535" />
+          </Other>
+        </Limit>
+      </Step13>
+      <Step14 Step_ID="14" Step_Type="1">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="1.815" />
+            <Rate Value="1" />
+            <Time Value="500" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step14>
+      <Step15 Step_ID="15" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="200" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step15>
+      <Step16 Step_ID="16" Step_Type="4">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Time Value="300" />
+          </Main>
+          <Other CndCount="1">
+            <Cnd1 type="1" Function="0" CmpType="4" Jump_Line="18" Value="42000" TimeGoto="0" ThrowParam=" 0" GlobleUserID="2147483647" GLobleType="1" GlobalVar="2147483647" Aux="0" />
+          </Other>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step16>
+      <Step17 Step_ID="17" Step_Type="5">
+        <Limit>
+          <Other>
+            <Start_Step Value="14" />
+            <Cycle_Count Value="65535" />
+          </Other>
+        </Limit>
+      </Step17>
+      <Step18 Step_ID="18" Step_Type="1">
+        <Record>
+          <Main>
+            <Time Value="100" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="0.908" />
+            <Rate Value="0.5" />
+            <Stop_Volt Value="45000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step18>
+      <Step19 Step_ID="19" Step_Type="3">
+        <Record>
+          <Main>
+            <Time Value="30000" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="0.908" />
+            <Volt Value="45000" />
+            <Stop_Curr Value="0.036" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step19>
+      <Step20 Step_ID="20" Step_Type="2">
+        <Record>
+          <Main>
+            <Time Value="30000" />
+          </Main>
+        </Record>
+        <Limit>
+          <Main>
+            <Curr Value="0.908" />
+            <Rate Value="0.5" />
+            <Stop_Volt Value="36000" />
+          </Main>
+        </Limit>
+        <Protect>
+          <Main>
+            <Volt>
+              <Upper Value="50000" />
+              <Lower Value="-10000" />
+            </Volt>
+          </Main>
+        </Protect>
+      </Step20>
+      <Step21 Step_ID="21" Step_Type="5">
+        <Limit>
+          <Other>
+            <Start_Step Value="6" />
+            <Cycle_Count Value="100" />
+          </Other>
+        </Limit>
+      </Step21>
+      <Step22 Step_ID="22" Step_Type="6">
+      </Step22>
+    </Step_Info>
+    <User_Info Count="210" />
+    <SMBUS>
+      <SMBUS_Info Num="0" AdjacentInterval="0" />
+    </SMBUS>
+  </config>
+</root>
