@@ -80,7 +80,6 @@ CSV 列名为 `Time(s)`（秒）与 `Voltage(V)`（伏特）。
 - 路径分隔符：在 Python 字符串中尽量使用正斜杠 `/` 或 pathlib 来避免 Windows 反斜杠转义问题。
 - 字段名不统一：有些 cycle 的 data 结构可能使用不同字段名（例如 `Voltage_charge`、`Voltage_measured`），脚本已尝试做若干字段名的兼容判断。
 - 有些 cycle 可能缺少 `Time` 或 `Voltage`（脚本会跳过这些 cycle）。
-- 如果需要提取所有 cycle 的 CSV（而不是仅第一次），可以使用较早版本的脚本（已在历史修改中生成过 `B0005_cycle_*.csv`），或联系我帮你恢复/修改脚本以按需提取。
 
 ## 扩展建议（可选）
 
