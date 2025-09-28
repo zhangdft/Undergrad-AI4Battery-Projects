@@ -15,4 +15,8 @@ plt.ylabel('Voltage (V)')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
+# 保存为 PNG 文件
+out_png = 'Submissions/richardzang/topic1/week2/B0005_first_cycle.png'
+plt.savefig(out_png, dpi=150)
+print('Saved plot to', out_png)
 plt.show()
