@@ -73,7 +73,7 @@ CSV 列名为 `Time(s)`（秒）与 `Voltage(V)`（伏特）。
 
 ## 绘图
 
-使用'ploy_B0005_firstcycle.py'文件绘制，在此不做赘述
+使用`ploy_B0005_firstcycle.py`文件绘制，在此不做赘述
 
 ## 常见问题与注意事项
 
