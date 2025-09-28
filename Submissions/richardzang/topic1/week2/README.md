@@ -73,7 +73,7 @@ CSV 列名为 `Time(s)`（秒）与 `Voltage(V)`（伏特）。
 
 ## 绘图
 
-如需绘制电压-时间图，可以使用 `pandas` + `matplotlib` 读取生成的 CSV 并绘图。本 README 不包含示例代码；如果你需要，我可以为你生成并运行绘图脚本以输出 PNG 图像。
+使用'ploy_B0005_firstcycle.py'文件绘制，在此不做赘述
 
 ## 常见问题与注意事项
 
