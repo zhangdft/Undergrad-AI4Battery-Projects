@@ -8,7 +8,6 @@
  - `parse_b0005_cycle1.py`：自动化脚本，提取 `B0005.mat` 中首次出现的 charge 与 discharge 循环，输出：
   - `B0005_first_charge.csv`
   - `B0005_first_discharge.csv`
-- `parse_b0005_cycle1.py`：与 `B0005.py` 等效的脚本（包含详细中文注释），用于学习与调试。
 - 其他生成的 CSV（若曾生成）会以 `B0005_cycle_*.csv`、`B0005_all_*.csv` 或 `B0005_real_*` 为名前缀；若需要干净状态可以删除这些文件后重跑脚本。
 
 ## 依赖（建议）
@@ -74,14 +73,13 @@ CSV 列名为 `Time(s)`（秒）与 `Voltage(V)`（伏特）。
 
 ## 绘图
 
-如需绘制电压-时间图，可以使用 `pandas` + `matplotlib` 读取生成的 CSV 并绘图。本 README 不包含示例代码；如果你需要，我可以为你生成并运行绘图脚本以输出 PNG 图像。
+使用`ploy_B0005_firstcycle.py`文件绘制，在此不做赘述
 
 ## 常见问题与注意事项
 
 - 路径分隔符：在 Python 字符串中尽量使用正斜杠 `/` 或 pathlib 来避免 Windows 反斜杠转义问题。
 - 字段名不统一：有些 cycle 的 data 结构可能使用不同字段名（例如 `Voltage_charge`、`Voltage_measured`），脚本已尝试做若干字段名的兼容判断。
 - 有些 cycle 可能缺少 `Time` 或 `Voltage`（脚本会跳过这些 cycle）。
-- 如果需要提取所有 cycle 的 CSV（而不是仅第一次），可以使用较早版本的脚本（已在历史修改中生成过 `B0005_cycle_*.csv`），或联系我帮你恢复/修改脚本以按需提取。
 
 ## 扩展建议（可选）
 
