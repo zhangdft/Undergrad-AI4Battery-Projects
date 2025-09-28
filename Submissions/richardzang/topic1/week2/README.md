@@ -8,7 +8,6 @@
  - `parse_b0005_cycle1.py`：自动化脚本，提取 `B0005.mat` 中首次出现的 charge 与 discharge 循环，输出：
   - `B0005_first_charge.csv`
   - `B0005_first_discharge.csv`
-- `parse_b0005_cycle1.py`：与 `B0005.py` 等效的脚本（包含详细中文注释），用于学习与调试。
 - 其他生成的 CSV（若曾生成）会以 `B0005_cycle_*.csv`、`B0005_all_*.csv` 或 `B0005_real_*` 为名前缀；若需要干净状态可以删除这些文件后重跑脚本。
 
 ## 依赖（建议）
