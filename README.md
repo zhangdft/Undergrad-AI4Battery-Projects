@@ -82,15 +82,14 @@
    - 编程语言、相关课程、项目经验等
 
 ###  提交路径示例
-Submissions/
-└── your-github-username/      ← 例如：zhangsan
-└── README.md              ← 你的作业内容写在这里
+-  `Submissions/`
+   -  `your-username/README.md`    
 
 ###  提交步骤
 1. 克隆你的个人作业仓库（由 GitHub Classroom 自动创建）
 2. 创建目录并编写 `README.md`：
    mkdir -p Submissions/your-github-username
-   # 编辑 Submissions/your-github-username/README.md
+   编辑 Submissions/your-github-username/README.md
 2. 提交代码：
 git add .
 git commit -m "Submit Assignment 1: Interest & Plan"
