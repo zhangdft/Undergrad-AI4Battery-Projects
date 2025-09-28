@@ -46,10 +46,11 @@
 ##  项目目录结构
 
 - ` 00_Topics/` —— 细分方向，了解内容和培养路线 (持续建设中)
-- ` 01_GettingStarted/` —— 手把手入门，重在规范与基础 (陆续更新中)
+- ` 01_GettingStarted/` —— 入门训练示例 (陆续更新中)
 - ` 02_Advanced/` —— 强化科研思维，鼓励自主探索
 - ` 03_Practical/` —— 面向真实问题，产出科研级成果
-- ` Common_Resources/` —— 图表模板、文献引用、学习链接
+- ` 04_Assignments/` —— 作业通知
+- ` Common_Resources/` —— 学习链接，资料整理
 - ` Submissions/` ——  训练项目作业提交
 
 ---

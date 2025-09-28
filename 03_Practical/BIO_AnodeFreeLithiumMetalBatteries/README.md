@@ -1,4 +1,5 @@
 # Bayesian-Informed Optimization (BIO) Framework
+*by Zhongxian Sun (孙中贤)*
 
 A modular framework for closed-loop optimization of battery charging protocols using Bayesian learning, early prediction, and automated experiment generation. Designed to accelerate materials discovery and protocol design under limited experimental budgets.
 

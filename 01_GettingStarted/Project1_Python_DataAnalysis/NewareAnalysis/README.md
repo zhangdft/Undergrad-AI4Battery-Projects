@@ -1,4 +1,5 @@
-# Battery Cycle Analysis Tool
+# Battery Cycle Analysis Tool 
+* by Zhongxian Sun (孙中贤) *
 
 A Python tool to analyze battery cycling data from Neware .ndax files. It visualizes:
 
