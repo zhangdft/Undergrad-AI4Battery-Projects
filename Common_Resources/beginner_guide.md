@@ -6,7 +6,7 @@
 ## 1. Python
 - [Python 官方文档](https://docs.python.org/3/)
 - [B站：Python 入门（搜索最新教程）](https://search.bilibili.com/all?keyword=Python%20入门)
-- [RunOO：Python3 教程](https://www.runoob.com/python3/python3-tutorial.html)
+- [Runoob：Python3 教程](https://www.runoob.com/python3/python3-tutorial.html)
 
 ---
 
@@ -25,21 +25,21 @@
 ## 4. NumPy
 - [NumPy 官方文档](https://numpy.org/doc/)
 - [B站：NumPy 基础与进阶（搜索最新教程）](https://search.bilibili.com/all?keyword=NumPy%20教程)
-- [RunOO：NumPy 教程](https://www.runoob.com/numpy/numpy-tutorial.html)
+- [Runoob：NumPy 教程](https://www.runoob.com/numpy/numpy-tutorial.html)
 
 ---
 
 ## 5. Matplotlib
 - [Matplotlib 官方文档](https://matplotlib.org/stable/contents.html)
 - [B站：Matplotlib 绘图教程（搜索最新教程）](https://search.bilibili.com/all?keyword=Matplotlib%20教程)
-- [RunOO：Matplotlib 教程](https://www.runoob.com/matplotlib/matplotlib-tutorial.html)
+- [Runoob：Matplotlib 教程](https://www.runoob.com/matplotlib/matplotlib-tutorial.html)
 
 ---
 
 ## 6. Pandas
 - [Pandas 官方文档](https://pandas.pydata.org/docs/)
 - [B站：Pandas 数据分析（搜索最新教程）](https://search.bilibili.com/all?keyword=Pandas%20教程)
-- [RunOO：Pandas 教程](https://www.runoob.com/pandas/pandas-tutorial.html)
+- [Runoob：Pandas 教程](https://www.runoob.com/pandas/pandas-tutorial.html)
 
 ---
 
