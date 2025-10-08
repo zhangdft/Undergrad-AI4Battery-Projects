@@ -1,1 +1,9 @@
-
+atomic_number = int(input("请输入原子序数："))
+if atomic_number == 3:
+    print("该元素是锂")
+elif atomic_number == 11:
+    print("该元素是钠")
+elif atomic_number == 19:
+    print("该元素是钾")
+else:
+    print("该元素不是锂、钠、钾，不属于目标电池材料元素。")
