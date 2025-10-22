@@ -69,7 +69,7 @@ $$
 
 电极与电解质接触时，由于电荷转移或吸附，界面处会形成 **双电层（Electrical Double Layer, EDL）**，其结构直接影响电极过程动力学。
 
-![双电层结构示意图](./figures/1.2.edl.png) 
+![双电层结构示意图](./figures/1.2.edl.jpg) 
 
 *图 1.2：双电层结构示意图
 
@@ -104,7 +104,7 @@ $$
 
 ## 1.3 电极过程动力学基础
 
-![电极过程动力学示意图](./figures/1.3.electrode_kinetics_steps.png) 
+![电极过程动力学示意图](./figures/1.3.electrode_kinetics_steps.jpg) 
 
 *图 1.2：电极/电解质界面示意图
 
