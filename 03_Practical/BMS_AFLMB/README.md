@@ -27,9 +27,9 @@ We solve this by predicting final lifetime **within hours of first-cycle complet
 
 We model predicted cycle life as:
 
-\[
+$$
 \hat{y} = y_{\text{base}}(\mathbf{x}_{\text{phys}}) + \Delta y(\mathbf{x}_{\text{raw}})
-\]
+$$
 
 ### ✅ Base Model (`y_base`)
 - **Input**: Handcrafted physical features from cycles 1–3  
